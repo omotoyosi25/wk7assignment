@@ -34,14 +34,13 @@
     let result2 = 100 / 2 * 6;
 
     
-    result = result * result2
+    result *= result2
     let finalResult = result.toFixed(2)
-    let finalNumber 
-    if (typeof finalResult =="string") {
-      finalNumber = Number(finalResult)  
-    } else {
-        finalNumber = finalResult
-    }
+    // alert(typeof finalResult)
+    
+    let finalNumber = Number(finalResult)  
+
+    
     // Don't edit the code below here!
 
     const section = document.querySelector('section');
